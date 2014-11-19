@@ -6220,22 +6220,16 @@ button.close {
   width: auto;
 }
 
-.content {
+#content {
   background: #ecf0f1;
   min-height: 100px;
   overflow: hidden;
 }
 
-.content p {
+#content p {
   font-size: 18px;
 }
 
-.content h1 {
+#content h1 {
   font-family: 'nexa_lightregular';
-}
-
-
-.contentdark {
-  background: #222;
-  min-height: 300px;
 }
