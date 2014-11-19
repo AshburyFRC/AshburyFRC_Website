@@ -3931,6 +3931,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav > li > a {
   font-size: 18px;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
@@ -6216,7 +6217,7 @@ button.close {
 
 .stickynav {
   z-index: 1;
-  width: 1140px;
+  width: auto;
 }
 
 #content {
