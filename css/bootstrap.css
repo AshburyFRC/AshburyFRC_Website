@@ -5005,12 +5005,25 @@ a.list-group-item-danger.active:focus {
   margin-bottom: 20px;
   background-color: #fff;
   border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  border-radius: 0px;
+  
 }
 .panel-body {
   padding: 15px;
+}
+
+.panel-body h1 {
+  text-transform: uppercase;
+  font-family: 'nexa_lightregular';
+}
+.panel-body a {
+  font-family: 'proxima_novalight';
+  font-size: 30px;
+  color: #000;
+}
+.panel-body p {
+  font-family: 'proxima_novalight';
+  font-size: 16px;
 }
 .panel-heading {
   padding: 10px 15px;
@@ -5201,8 +5214,16 @@ a.list-group-item-danger.active:focus {
 .panel-group .panel-footer + .panel-collapse .panel-body {
   border-bottom: 1px solid #ddd;
 }
+.panel-twitter {
+  background-color: #F2F2F2;
+}
 .panel-default {
+  min-height: 600px;
   border-color: #ddd;
+}
+.panel-inverse {
+  background-color: #222;
+  min-height: 300px;
 }
 .panel-default > .panel-heading {
   color: #333;
@@ -6220,16 +6241,12 @@ button.close {
   width: auto;
 }
 
-#content {
+#first {
   background: #ecf0f1;
   min-height: 100px;
   overflow: hidden;
 }
 
-#content p {
+#first p {
   font-size: 18px;
-}
-
-#content h1 {
-  font-family: 'nexa_lightregular';
 }
