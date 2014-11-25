@@ -3926,7 +3926,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 .navbar-nav > li {
-  margin-right: 70px;
+  margin-right: 56px;
 }
 
 .navbar-nav > li > a {
@@ -5218,7 +5218,7 @@ a.list-group-item-danger.active:focus {
   background-color: #F2F2F2;
 }
 .panel-default {
-  min-height: 600px;
+  min-height: 710px;
   border-color: #ddd;
 }
 .panel-inverse {
@@ -6249,4 +6249,70 @@ button.close {
 
 #first p {
   font-size: 18px;
+}
+
+.panel-inverse p {
+  font-size: 18px;
+  color: #fff;
+}
+
+footer {
+  font-family: 'proxima_novalight';
+  margin-top: 60px;
+  min-height: 130px;
+  background: #222;
+}
+
+footer i {
+  color: #ffffff;
+  font-size: 40pt;
+  padding-top: 100px;
+}
+
+footer h1 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 16pt;
+  color: #ffffff;
+}
+
+footer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11pt;
+  color: #ffffff;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer a > p:hover {
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 12pt;
+  color: #959595;
+  max-width: 300px;
+}
+
+
+#footerbot {
+  margin-top: 30px;
+  min-height: 60px;
+  background: #252525;
+}
+
+#footerbot p {
+  padding-top: 20px;
+  font-family: 'proxima_novalight';
+  font-size: 12pt;
+  color: #5d5d5d;
+}
+
+#footerbot img {
+  height: 40px;
+  margin-top: 12px;
 }

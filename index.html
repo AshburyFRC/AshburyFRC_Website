@@ -11,7 +11,15 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
-  <body style="height: 3000px;">
+  <body>
+       <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div id="hello">
      <div class="logo">
       <center><img src="img/logo.png" alt="Coltenoids" draggable="false" class="img-responsive"/></center>
@@ -37,7 +45,8 @@
               <li><a href="">History</a></li>
               <li><a href="">Sponsors</a></li>
               <li><a href="">Latest News</a></li>
-              <li style="margin-right: 0;"><a href="">Photo Gallery</a></li>
+              <li><a href="">Photo Gallery</a></li>
+              <li style="margin-right: 0;"><a href="">Contact Us</a></li>
              </ul>
            </div>
          </div>
@@ -64,7 +73,16 @@
     <div class="container" style="padding-top: 30px;">
       <div class="panel panel-inverse">
         <div class="panel-body">
-
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <p style="padding-top: 80px">Like the pansy-ass who's never grown out his beard has no idea what his true natural state is, you have no fucking idea what a website is. All you have ever seen are shitty skeuomorphic bastardizations of what should be text communicating a fucking message. This is a real, naked website. Look at it. It's fucking beautiful.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="img/team.jpg" style="padding-top: 30px; width:300px;" alt="le sexy team" draggable="false" class="img-responsive"/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -89,6 +107,7 @@
               <a href="">This is not a Fake Title for an Article</a>
               <p>You. Are. Over-designing. Look at this shit. It's a motherfucking website. Why the fuck do you need to animate a fucking trendy-ass banner flag when I hover over that useless piece of shit?...</p>
               <p><i class="fa fa-calendar"></i> November 24, 2014  <i class="fa fa-clock-o" style="padding-left: 40px;"></i> 4:43 PM</p>
+              <hr>
             </div>
           </div>
         </div>
@@ -97,6 +116,11 @@
             <div class="panel-body">
               <h1>Latest Tweets</h1>
               <hr>
+             <center> <a href="https://twitter.com/FRC4825" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @FRC4825 on Twitter</a></center>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+              <center><div class="fb-like" data-href="https://www.facebook.com/theashburycoltenoids" data-width="150" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false" style="padding-top: 10px; padding-bottom: 10px;"></div></center>
+             
               <div class="panel panel-twitter">
                 <div class="panel-body">
                   <p>We're back! Looking forward to another absolutely amazing year!</p>
@@ -121,7 +145,17 @@
         </div>
       </div>
     </div>
-   
+ 
+  <div id="footerbot">
+      <div class="container">
+        <div class="col-md-6">
+          <img src="img/logo.png" draggable="false" class="img-responsive" alt="le logo"/>
+        </div>
+        <div class="col-md-6">
+          <p style="text-align: right;">Designed and built by 4825.</p>
+        </div>
+    </div>
+  </div>
     
 
 
